@@ -1,5 +1,21 @@
 # AWS ECR Usage Report
 
+```    
+ .-----.----.----.                 
+ |  -__|  __|   _|                 
+ |_____|____|__|        
+                 
+ .--.--.-----.---.-.-----.-----.   
+ |  |  |__ --|  _  |  _  |  -__|   
+ |_____|_____|___._|___  |_____|   
+                   |_____|    __   
+ .----.-----.-----.-----.----|  |_ 
+ |   _|  -__|  _  |  _  |   _|   _|
+ |__| |_____|   __|_____|__| |____|
+            |__|                   
+               
+```                                    
+
 ## Introduction
 
 AWS ECR (Elastic Container Registry) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. AWS ECR is integrated with Amazon Elastic Container Service (ECS), simplifying your development to production workflow. 
@@ -46,7 +62,33 @@ pip3 install boto3 tqdm
 python3 ecr.py
 ```
 
-## Output
+## Report Insights
+```shell
+Summary Report:
+230 TB
+234,970 GB
+240,609,190 MB
+
+Top 10 biggest repositories by size:
+1. ****** - 8003 images - 11948202175781.000 bytes (11394693.542 MB) (11127.630 GB) (10.867 TB)
+2. ****** - 13691 images - 11101059770565.000 bytes (10586795.588 MB) (10338.668 GB) (10.096 TB)
+3. ****** - 5241 images - 4439289509626.000 bytes (4233636.388 MB) (4134.411 GB) (4.038 TB)
+4. ****** - 5236 images - 4436746504394.000 bytes (4231211.190 MB) (4132.042 GB) (4.035 TB)
+5. ****** - 5241 images - 4427730921886.000 bytes (4222613.260 MB) (4123.646 GB) (4.027 TB)
+6. ****** - 5237 images - 4424471206107.000 bytes (4219504.553 MB) (4120.610 GB) (4.024 TB)
+7. ****** - 5238 images - 4422046565896.000 bytes (4217192.236 MB) (4118.352 GB) (4.022 TB)
+8. ****** - 5236 images - 4420372283795.000 bytes (4215595.516 MB) (4116.792 GB) (4.020 TB)
+9. ****** - 5244 images - 4342904000412.000 bytes (4141716.004 MB) (4044.645 GB) (3.950 TB)
+10. ****** - 5145 images - 4325751640618.000 bytes (4125358.239 MB) (4028.670 GB) (3.934 TB)
+
+Statistics:
+Total number of repositories: 203
+Total number of images across all repositories: 314,043
+Number of repositories without tags: 101
+Number of repositories without lifecycle policies: 85
+```
+
+## Full Output
 
 The script will output a detailed report of your AWS ECR usage. Here is a sample output:
 
