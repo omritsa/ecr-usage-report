@@ -52,7 +52,7 @@ The script also saves a full report of its finding in a csv and json format.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/username/repository.git
+git clone https://github.com/omritsa/ecr-usage-report.git
 cd repository
 pip3 install boto3 tqdm
 ```
