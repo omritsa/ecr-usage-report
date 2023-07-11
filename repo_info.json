@@ -1,0 +1,54 @@
+[
+    {
+        "image_count": 1,
+        "lifecycle_policy": null,
+        "name": "new",
+        "tags": [
+            {
+                "Key": "name",
+                "Value": "temp"
+            },
+            {
+                "Key": "env",
+                "Value": "dev"
+            }
+        ],
+        "total_size_bytes": 78531277,
+        "total_size_gb": 0.07313795108348131,
+        "total_size_mb": 74.89326190948486,
+        "total_size_tb": 7.142378035496222e-05
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "remove alpha images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 1,
+                    "countType": "sinceImagePushed",
+                    "countUnit": "days",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "test",
+        "tags": [
+            {
+                "Key": "name",
+                "Value": "test-repo"
+            },
+            {
+                "Key": "env",
+                "Value": "dev"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    }
+]
