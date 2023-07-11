@@ -22,7 +22,8 @@ AWS ECR (Elastic Container Registry) is a fully-managed Docker container registr
 
 As the usage of AWS ECR increases, it can become challenging to keep track of the images, their versions, and their sizes. This becomes even more important when costs are a factor. The cost of AWS ECR is directly proportional to the amount of data stored and the number of data transfer operations. Therefore, tracking this usage becomes very important to managing costs.
 
-This Python script helps DevOps and FinOps engineers by providing a usage report against AWS ECR. The script fetches metrics, statistics, and tags for each repository, helping you keep track of your repositories' size and apply lifecycle policies where necessary.
+This Python script helps DevOps and FinOps professionals by providing a detailed usage report for AWS ECR. 
+The script fetches metrics, statistics, and tags for each repository, helping you keep track of your repositories' size and apply lifecycle policies where necessary.
 
 ## Features
 
