@@ -93,6 +93,22 @@ Number of repositories without lifecycle policies: 85
 The script will output a detailed report of your AWS ECR usage. Here is a sample output:
 
 ```shell
+omrits@Laptop ecr-usage-report % python3 ecr.py                          
+                                 
+ .-----.----.----.                 
+ |  -__|  __|   _|                 
+ |_____|____|__|        
+                 
+ .--.--.-----.---.-.-----.-----.   
+ |  |  |__ --|  _  |  _  |  -__|   
+ |_____|_____|___._|___  |_____|   
+                   |_____|    __   
+ .----.-----.-----.-----.----|  |_ 
+ |   _|  -__|  _  |  _  |   _|   _|
+ |__| |_____|   __|_____|__| |____|
+            |__|                   
+                                    
+
 Fetching repos metrics, statistics and tags:
   0%|                                           | 0/2 [00:00<?, ?it/s]'new' page is 8 bytes
   50%|█████████████████▌                 | 1/2 [00:00<00:00,  1.89it/s]'test' page is 8 bytes
