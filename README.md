@@ -25,6 +25,10 @@ As the usage of AWS ECR increases, it can become challenging to keep track of th
 This Python script helps DevOps and FinOps professionals by providing a detailed usage report for AWS ECR. 
 The script fetches metrics, statistics, and tags for each repository, helping you keep track of your repositories' size and apply lifecycle policies where necessary.
 
+## What's the purpose of this code?
+
+This code will provide you with the insights you need to reduce your AWS ECR costs.
+
 ## Features
 
 The script provides the following details:
